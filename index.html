@@ -1,0 +1,57 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title>CALCULAR</title>
+	<script type="text/javascript" src="./Calcular.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="Calcular.css">
+	</head>
+
+	<body background="./imagenes/Fondo.jpg" >
+
+	<h2 align="center" id="Titulo" >MINI CALCULADORA</h2>
+		
+<body>
+
+	<div class="primeros" > 	
+						<img clas src="./imagenes/imagen1.jpg" onclick="enviarNumero('1')" >
+						<img clas src="./imagenes/imagen4.jpg" onclick="enviarNumero('4')" > 
+						<img clas src="./imagenes/imagen7.jpg" onclick="enviarNumero('7')" > 
+			</div>		
+
+			<div class= "primeros2">
+						<img clas src="./imagenes/imagen2.jpg" onclick="enviarNumero('2')" > 
+						<img clas src="./imagenes/imagen5.jpg" onclick="enviarNumero('5')" >   
+						<img clas src="./imagenes/imagen8.jpg" onclick="enviarNumero('8')" >
+			</div>
+
+					<div class= "primeros3">
+
+						<img clas src="./imagenes/imagen3.jpg" onclick="enviarNumero('3')" > 
+						<img clas src="./imagenes/imagen6.jpg" onclick="enviarNumero('6')" > 
+						<img clas src="./imagenes/imagen9.jpg" onclick="enviarNumero('9')" >
+
+	</div>
+
+
+
+
+	<div class="sumaResta"></div>
+					
+				<div class="Primeros4"> 
+						<img src="./imagenes1/imagenSuma1.jpg" onclick= "enviarSigno('+')">	
+						<img src="./imagenes1/imagenRESTA2.jpg"	onclick= "enviarSigno('-')">
+						<img src="./imagenes1/imagenmultiplicacion3.jpg" onclick="enviarSigno('*')">
+						<img src="./imagenes1/imagenDIVICION4.jpg" onclick="enviarSigno('/')" >
+						<img class="borrar" src="./imagenes1/borrar.jpg" onclick="borrar()"/> 
+						<img class="igual" src="./imagenes1/igual.jpg"  onclick="igual()"/>
+				</div>
+
+		<tr>
+	           	<td id  style="position: absolute;"><div id="total"></div></td>
+	           	<td></td>
+	          	<td></td>
+	    </tr>
+
+</body>
+</html>
